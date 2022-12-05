@@ -1,0 +1,816 @@
+
+
+.hfMenu{
+    display:flex;
+    flex-direction: row;
+    background-color: #131313;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.headerMenu {
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 83px;
+    /*min-width: 938px;*/
+/*    width: 1250px;*/
+    /*left: 1px;
+    top: 0px;*/
+    border-radius: 0px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.headerMenu1 {
+    /*width: 160px;*/
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerMenu2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+ /*   width: 450px;*/
+}
+
+.headerMenu3 {
+    /*width: 160px;*/
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media screen and (max-width: 1300px){
+    .headerMenu2 {
+        display: none;
+    }
+    .headerMenu3 {
+        display: none;
+    }     
+}
+
+
+.menuLink1 {
+    color: #FFFF;
+    padding-left: 20px;  
+}
+.menuLink2 {
+    color: #E3B873;
+    padding-left: 20px;
+}
+.menuLink3 {
+    color: #FFFF;
+}
+
+main{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+   
+}
+
+.homeblock{
+    background-image: 
+                    linear-gradient(
+                    rgba(0, 0, 0, 0.7), 
+                    rgba(0, 0, 0, 0.7)
+                    ),url('../img/image 4.3.png');
+    height: 707px;
+    background-color: #131313;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .pHomeInfo{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    color: #FFFF;
+
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+ }
+.spanHomeInfo{
+    color:#FFFF;
+    font-family: 'Nunito Sans';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+
+}
+.bttns{
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+    padding-top: 40px
+}
+
+.btton_home {
+    background-color: #E3B873;
+    border-color: #E3B873;
+    color: white;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    font-family: Nunito Sans;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/******************           project section*****************/
+.prjWrap{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 257px;
+    background-color: #131313;
+}
+.projectsblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #131313;
+   
+}
+.projectInfoGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.projectInfoCell{
+    display: flex;
+    flex-direction: column;  
+}
+.pprojectDescrHdr{
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E3B873;
+    padding-bottom: 1px;
+    margin-bottom: 3px;
+    }
+.pprojectDescrTxt{
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left; 
+    color: #FFFF;   
+    padding-top:1px;
+    margin-top: 3px;
+}
+
+.projectHdrLnk{
+    font-family: Yeseva One;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF4D;
+}
+.projectHdrLnk:active{
+    color: #E3B873;
+}
+
+.projectPicHdr{
+    height: 105px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+/*********************************************************/
+.onlineControl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFF;
+   /* margin-top: -217px;
+
+    height: 1100px;*/
+}
+.onlinecontrolPic{
+    width: 57%; 
+    min-width: 375px;
+    max-width: 817px;
+    height: 434px;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)
+        ),url('../img/image 6.png');
+        background-position: center;
+        background-repeat: no-repeat;
+
+        margin-top: -217px;
+}
+
+
+.onlineControlOrderForm{
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.buttonclass {
+    background-color: #E3B873;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+/*
+  input[type=text] {
+    background-color: white;
+    font-size: 11px;
+    line-height: 15px;
+  }
+*/
+.onlineControlText{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top:25px;
+}
+
+  .requestForm{
+    display: grid;
+    grid-template-columns:  repeat(3, 200px);
+    grid-template-rows: auto; 
+    grid-gap: 15px;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    }
+ 
+.formElement{
+    display:flex;
+    flex-direction: column;
+    padding-left:5px;
+    min-height: 50px;
+    max-width: 190px;
+    /*width : 230px;*/
+  }
+
+ .formElementRC{
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: row;
+  
+}
+/*
+.formElementP{
+    grid-column: 2/3;
+}
+.formElementE{
+    grid-column: 3/4;
+}
+
+.formElementReqP{
+    grid-column: 2/3;
+    display:flex;
+    flex-direction: column;
+    padding-left:5px;
+    min-height: 50px;
+    max-width: 200px;
+}
+
+.formElementReqP{
+    grid-column: 2/3;
+    display:flex;
+    flex-direction: column;
+    padding-left:5px;
+    min-height: 50px;
+    max-width: 200px;
+}
+*/
+.typesOfRepair{
+    padding-bottom: 124px;
+}
+
+  .typesOfRepairHeader{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Yeseva One;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+
+  }
+  
+  .typesOfRepairSet{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 380px);
+        grid-template-rows: auto;  
+        justify-content: center;     
+        grid-gap: 30px;
+  }
+  .typesOfRepairItem{
+    display: flex;
+    flex-direction: column;
+    max-width: 392px;
+    max-height: 600px;
+    align-items: center;
+  }
+
+  .jobList{
+    width:  330px;
+    height: 296px;
+    margin-top: -127px;
+    background-color: white;
+  }
+
+  ul.typesOfRepairItemList{
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #959595;
+    
+    padding: 0px 29px 48px 34px;
+    margin-top: 0px;
+    
+    box-shadow: 10px 10px 20px 0px #00000008;
+  }
+  
+  h1.typesOfRepairItemHeader{
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    /*text-transform: uppercase;*/
+    padding-top: 10px;
+    padding-left: 34px;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+  }
+.typeOfRepairPrice{
+    width: 228px;
+    height: 54px;
+    
+    padding-left: 34px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-right: 80px;
+    background-color: #E3B873;
+    
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.repairBonusesAndForm{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height:700px;
+    padding-bottom: 150px;
+}
+.repairBonuses{
+    background-image: url('../img/image 6.1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 703px;
+    height: 645px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 250px;
+    padding-bottom: 25px;
+}
+.bonusItem{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+bonusItem.span{
+    width: 316px;
+}
+.bonusNumberImg{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #E3B873;
+    border-color: white;
+    border-radius: 50%;
+    
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.05);
+ 
+    width: 42px;
+    height: 42px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 5px 5px 5px;
+
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.requestMeasurerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /*align-items: left;*/
+
+    width: 506px;
+    height: 509px;
+    background-color: #131313;
+    padding-left: 49px;
+    }
+
+.formElementBlack{
+    color: #FFFFFF80;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+  .mesaurerFormHeader{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+      }  
+      
+.formInputBlack{
+    /*color:#FFFF;*/
+    
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: inherit;  
+    border-style: none;  
+    }
+
+.saveMoneyPig{
+    padding-top:35px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Nunito Sans;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E3B873;
+}
+
+
+    .wildestFantasiesClass{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 864px;
+        background-color: #131313;
+        
+       /* max-width: 1440px;*/
+    
+}
+.wildestFantasiescontainer{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.75), 
+        rgba(0, 0, 0, 0.9)
+        ), url('../img/image 5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}    
+.wildestFantasiesListClass{
+    width: 40%;
+    background: transparent;
+}
+ ul.wildestFantasiesListClass{
+    width:90%;
+    
+    list-style-type: none;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+    padding-left:20%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h1.wildestFantasiesListClass{
+    text-transform: uppercase;
+    color:#E3B873;
+    font-family: Yeseva One;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 0px;
+    width: fit-content;
+}
+
+.wildestFantasiespics{
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(354px,25%));
+    grid-template-rows: auto;
+    grid-gap: 37px; /*2vw;*/
+}
+
+/***************************           our client section         ********************************/
+#clients{
+    padding-top: 110px;
+    align-items: center;
+}
+.clientsText{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.clientItem{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 460px;
+    align-items: left;
+    justify-content: space-evenly;
+    /*box-shadow: 10px 10px 20px 0px #00000008;*/
+
+    }
+    
+.client{
+    height: 123px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1.client{
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+ 
+
+.clientthanks{
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #959595;
+    padding:11px 32px 60px 20px;
+}
+   
+.sizeAndPrice{
+    display:flex;
+    flex-direction: row;
+}
+
+.sizeAndPriceItem{
+    display: flex;
+    
+    width: 146px;
+    height: 54px;
+    border-color: white;
+    border-style: solid;
+    border-right-width: 1px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    text-transform: uppercase;
+
+}
+span.sizeAndPrice{
+    padding-left: 17px;
+    padding-right: 14px;
+}
+
+/****************************************************************************************/
+
+.justCityPic{
+    height: 354px;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.95), 
+        rgba(255, 255, 255, 0.95)), url('../img/city_pic.png');
+    background-position: center;
+    background-repeat: repeat-x;
+}
+.questionsAndContacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height:953px;
+
+}
+.formWrap{
+    align-self: center;
+    z-index: 2;
+    height: 500px;
+    min-width: 800px;
+    max-width: 850px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -222px; 
+    margin-bottom: -260px;
+    background-color: #131313;
+ 
+}
+
+.questionFormHeader{
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+}
+
+.questionsForm{
+    padding-left: 20%;
+    padding-right: 20%;
+    display:grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 80px 80px 80px 80px;
+    align-items: center;
+}
+
+.formElementName{
+    grid-column: 1/1;
+}
+.formElementPhone{
+    grid-column: 2/2;
+}
+.formElementEmail{
+    grid-column: 1/3;
+}
+.formElementQ{
+    grid-column: 1/3;
+    justify-self: center;
+    display:flex;
+    flex-direction: row;
+}
+#requestFormId label {
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left; 
+    color: #959595;
+}
+
+#requestFormId input::placeholder {
+      color: white;  
+}
+
+#requestFormId input {
+    width: 200px;  
+}
+
+.map{
+    height: 850px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;
+    background-image: linear-gradient(180deg, 
+    rgba(24, 24, 24, 0.9) 3.47%,
+    rgba(24, 24, 24, 0.72) 100%)
+    , url('../img/under_map.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.contactsDown{
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E3B873;
+    text-transform: uppercase;
+    padding-bottom: 26px; 
+    padding-top: 275px;    
+}
+.contactPic{
+    display: inline;
+    padding-bottom: 26px;
+}
