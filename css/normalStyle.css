@@ -162,6 +162,12 @@ main{
     background-color: #131313;
    
 }
+.projectInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .projectInfoGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -216,6 +222,23 @@ main{
     padding-bottom: 50px;
 }
 
+.spanPrjInfo{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFF;
+    
+    
+}
+.prj_pic2{
+    display:none;
+}
+.smth_buttonish{
+    padding-top: 55px;
+}
 /*********************************************************/
 .onlineControl{
     display: flex;
