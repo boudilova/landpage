@@ -5,7 +5,7 @@
     flex-direction: row;
     background-color: #131313;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
    
 }
 
@@ -90,7 +90,7 @@ main{
                     rgba(0, 0, 0, 0.7)
                     ),url('../img/image 4.3.png');
     height: 707px;
-    background-color: #131313;
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -158,14 +158,14 @@ main{
     justify-content: space-around;
     align-items: center;
     padding-bottom: 42px;
-    background-color: #131313;
+    background-color: black;
 }
 .projectsblock{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #131313;
+    background-color: black;
    
 }
 .projectInfoGrid{
@@ -253,23 +253,20 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FFFF;
-   /* margin-top: -217px;
-
-    height: 1100px;*/
+    background-color: black;
 }
 .onlinecontrolPic{
     /*width: 57%; 
     min-width: 375px;
     max-width: 817px;*/
-    width: max-content;
+    width: min(817px, max(375px, 57%));
     height: 434px;
  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    background-color: black;
     background-image: 
         linear-gradient(
         rgba(0, 0, 0, 0.8), 
@@ -311,23 +308,21 @@ main{
 */
 .onlineControlText{
     font-family: Nunito Sans;
-    font-size: 18px;
+    font-size: 11px;
     font-weight: 400;
-    line-height: 37px;
+    line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
     margin-bottom: 50px;
     margin-top:25px;
+    color: white;
 }
 
   .requestForm{
-    display: grid;
-    grid-template-columns:  repeat(3, 200px);
-    grid-template-rows: auto; 
-    grid-gap: 15px;
+    display: flex;
+    flex-direction: column;
     align-content: center;
-    padding-top: 20px;
-    padding-bottom: 150px;
+    justify-content: space-evenly;
     }
  
 .formElement{
@@ -335,44 +330,21 @@ main{
     flex-direction: column;
     padding-left:5px;
     min-height: 50px;
-    max-width: 190px;
-    /*width : 230px;*/
   }
 
+input.formElement{
+    width:300px;
+}
  .formElementRC{
     grid-column: 1/4;
     display: flex;
     flex-direction: row;
   
 }
-/*
-.formElementP{
-    grid-column: 2/3;
-}
-.formElementE{
-    grid-column: 3/4;
-}
 
-.formElementReqP{
-    grid-column: 2/3;
-    display:flex;
-    flex-direction: column;
-    padding-left:5px;
-    min-height: 50px;
-    max-width: 200px;
-}
-
-.formElementReqP{
-    grid-column: 2/3;
-    display:flex;
-    flex-direction: column;
-    padding-left:5px;
-    min-height: 50px;
-    max-width: 200px;
-}
-*/
 .typesOfRepair{
     padding-bottom: 124px;
+    padding-top: 85px;
 }
 
   .typesOfRepairHeader{
@@ -389,18 +361,18 @@ main{
   }
   
   .typesOfRepairSet{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, 380px);
-        grid-template-rows: auto;  
-        justify-content: center;     
-        grid-gap: 30px;
+        display: flex;
+       flex-direction: column;
+        justify-content: space-between;     
+        align-items: center;
   }
   .typesOfRepairItem{
     display: flex;
     flex-direction: column;
     max-width: 392px;
-    max-height: 600px;
+    max-height: 650px;
     align-items: center;
+    margin-bottom: 15px;
   }
 
   .jobList{
@@ -458,12 +430,8 @@ main{
 }
 
 .repairBonusesAndForm{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    height:700px;
-    padding-bottom: 150px;
+    display:none;
+   
 }
 .repairBonuses{
     background-image: url('../img/image 6.1.png');
@@ -583,45 +551,53 @@ bonusItem.span{
     color: #E3B873;
 }
 
+/*******************             wildestFantasies section      **************/
 
-    .wildestFantasiesClass{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-        height: 864px;
-        background-color: #131313;
-        
-       /* max-width: 1440px;*/
+.wildestFantasiesClass{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /*height: 864px;*/
+    /*background-color: #131313;*/
     
+   /* max-width: 1440px;*/
+    width: 90%;
+    align-self: center;
+
 }
 .wildestFantasiescontainer{
-    background-image: linear-gradient(
+ /*   background-image: linear-gradient(
         rgba(0, 0, 0, 0.75), 
         rgba(0, 0, 0, 0.9)
         ), url('../img/image 5.png');
     background-repeat: no-repeat;
     background-position: center;
-    
-}    
+*/display:none;
+} 
+
+.fun_pic2{
+    height: 500px;
+    width: 100%;
+    margin-top: 42px;
+    background-image: url('../img/image 5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
 .wildestFantasiesListClass{
     width: 40%;
     background: transparent;
 }
- ul.wildestFantasiesListClass{
-    width:90%;
-    
-    list-style-type: none;
-    font-family: Nunito Sans;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: left;
-    color:white;
-    padding-left:20%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+
+ul.wildestFantasiesListClass{
+    display: none;
 }
+
+
 h1.wildestFantasiesListClass{
     text-transform: uppercase;
     color:#E3B873;
@@ -632,21 +608,25 @@ h1.wildestFantasiesListClass{
     letter-spacing: 0em;
     text-align: left;
     padding-right: 0px;
+    padding-left:20%;
     width: fit-content;
 }
 
 .wildestFantasiespics{
-    align-items: flex-start;
-    display: grid;
-    grid-template-columns: repeat(2,minmax(354px,25%));
-    grid-template-rows: auto;
-    grid-gap: 37px; /*2vw;*/
+     display: none;
 }
+.wildestFantasiespics_mob{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
 
+}
 /***************************           our client section         ********************************/
 #clients{
-    padding-top: 110px;
-    align-items: center;
+    /*padding-top: 110px;
+    align-items: center;*/
+    display: none;
 }
 .clientsText{
     font-family: Nunito Sans;
@@ -733,12 +713,13 @@ span.sizeAndPrice{
 /****************************************************************************************/
 
 .justCityPic{
-    height: 354px;
+    display:none;
+    /*height: 354px;
     background-image: linear-gradient(
         rgba(255, 255, 255, 0.95), 
         rgba(255, 255, 255, 0.95)), url('../img/city_pic.png');
     background-position: center;
-    background-repeat: repeat-x;
+    background-repeat: repeat-x;*/
 }
 .questionsAndContacts{
     display: flex;
@@ -749,20 +730,21 @@ span.sizeAndPrice{
     height:953px;
 
 }
+
 .formWrap{
     align-self: center;
-    z-index: 2;
-    height: 500px;
-    min-width: 800px;
-    max-width: 850px;
-    
+    z-index: -1;
+    height: 450px;
+    /*min-width: 800px;
+    max-width: 850px;*/
+    width: 100%;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: -222px; 
-    margin-bottom: -260px;
+    justify-content:space-between;
+    align-content: center;
+    margin-top: -121px; 
+
     background-color: #131313;
- 
 }
 
 .questionFormHeader{
@@ -771,31 +753,38 @@ span.sizeAndPrice{
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     color:white;
+    padding-top: 170px;
 }
 
 .questionsForm{
-    padding-left: 20%;
+    /*padding-left: 20%;
     padding-right: 20%;
     display:grid;
     grid-template-columns: auto auto ;
     grid-template-rows: 80px 80px 80px 80px;
-    align-items: center;
+    align-items: center;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-left: 35%;
 }
-
+/*
 .formElementName{
     grid-column: 1/1;
+
 }
 .formElementPhone{
     grid-column: 2/2;
 }
 .formElementEmail{
     grid-column: 1/3;
-}
+}*/
 .formElementQ{
-    grid-column: 1/3;
+   /* grid-column: 1/3;*/
     justify-self: center;
     display:flex;
     flex-direction: row;
@@ -813,27 +802,24 @@ span.sizeAndPrice{
 #requestFormId input::placeholder {
       color: white;  
 }
-
+/*
 #requestFormId input {
     width: 200px;  
 }
-
+*/
 .map{
-    height: 850px;
+    height: 750px;
 
     display:flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column-reverse;
+    justify-content: space-around;
     align-items: center;
-    background-color: #131313;
-    background-image: linear-gradient(180deg, 
-    rgba(24, 24, 24, 0.9) 3.47%,
-    rgba(24, 24, 24, 0.72) 100%)
-    , url('../img/under_map.png');
-    background-position: right;
-    background-repeat: no-repeat;
+    background-color: black;
 }
 .contactsDown{
+    display:none;
+}
+.contactsDown_mob{
     font-family: Yeseva One;
     font-size: 20px;
     font-weight: 400;
@@ -843,9 +829,12 @@ span.sizeAndPrice{
     color: #E3B873;
     text-transform: uppercase;
     padding-bottom: 26px; 
-    padding-top: 275px;    
+    padding-top: 27px;    
 }
 .contactPic{
     display: inline;
     padding-bottom: 26px;
+}
+footer.hfMenu{
+    display:none;
 }

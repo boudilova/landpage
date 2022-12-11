@@ -392,6 +392,7 @@ main{
     max-width: 392px;
     max-height: 600px;
     align-items: center;
+
   }
 
   .jobList{
@@ -613,6 +614,7 @@ bonusItem.span{
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
 h1.wildestFantasiesListClass{
     text-transform: uppercase;
     color:#E3B873;
@@ -624,6 +626,7 @@ h1.wildestFantasiesListClass{
     text-align: left;
     padding-right: 0px;
     width: fit-content;
+    padding-left:20%;
 }
 
 .wildestFantasiespics{
@@ -633,7 +636,9 @@ h1.wildestFantasiesListClass{
     grid-template-rows: auto;
     grid-gap: 37px; /*2vw;*/
 }
-
+.wildestFantasiespics_mob{
+    display: none;
+}
 /***************************           our client section         ********************************/
 #clients{
     padding-top: 110px;
@@ -839,4 +844,8 @@ span.sizeAndPrice{
 .contactPic{
     display: inline;
     padding-bottom: 26px;
+}
+
+.contactsDown_mob{
+    display:none;
 }
